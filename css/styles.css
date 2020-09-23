@@ -15,7 +15,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 html { overflow-y: scroll; }
 body { 
-  background: #f0f0f0; 
+  /*background: #f0f0f0; */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #313131;
   font-size: 62.5%; 
@@ -145,6 +145,7 @@ h1:after {
   height: 1px;
   vertical-align: middle;
   background: #f0f0f0;
+	text-align: center;
 }
 h1:before {    
   left: -.5em;
@@ -192,7 +193,7 @@ a:hover { text-decoration: underline; }
 /** page structure **/
 #w {
   display: block;
-  width: 750px;
+  /*width: 750px;*/
   margin: 0 auto;
   padding-top: 30px;
 }
@@ -238,7 +239,7 @@ form input.basic {
 /** source: http://codepen.io/joshnh/pen/KqzvG **/
 .button {
   display: block;
-  background-color: ##ee5340;
+  background-color: #ee5340;
   background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
   background-image:    -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
   background-image:     -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));

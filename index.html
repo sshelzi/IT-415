@@ -1,102 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html">
-  <title>IT-420 GasBuddy Login Screen</title>
-  <meta name="author" content="Sabrina Shelzi">
-  <!--fav icons-->
-  <!--<link rel="icon" href="https://static.gasbuddy.com/web/favicon.ico">-->
-  <link rel="shortcut icon" id="favicon" type="image/x-icon" href="https://static.gasbuddy.com/web/favicon.ico">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://images.gasbuddy.com/images/websites/gasbuddy/apple-touch-icon.png">
-  
-   <!--style sheets-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
-  
-   <!--javascripts-->
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-  <script type="text/javascript" src="js/jquery.cookie.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html" />
+        <title>IT-420 GasBuddy Login Screen</title>
+        <meta name="author" content="Sabrina Shelzi" />
+        <!--fav icons-->
+        <!--<link rel="icon" href="https://static.gasbuddy.com/web/favicon.ico">-->
+        <link rel="shortcut icon" id="favicon" type="image/x-icon" href="https://static.gasbuddy.com/web/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="152x152" href="https://images.gasbuddy.com/images/websites/gasbuddy/apple-touch-icon.png" />
 
-<body>
-  <div id="topbar">
-		<p>Log in</p>
-  </div>
-  
-  <div id="w">
-    <div class="container-fluid" id="content">
-	<div class="row">
-		<div class="col-sm-12"><h1>Welcome back!</h1></div>
-		<div class="row">
-		<div class="col-sm-12"><p style:"text-align: center;">Log back into your GasBuddy account.</p></div>
-		<div class="col-sm-12"><p style:"text-align: center;" font-style: italic;"><small>username/password: demo/demo</small></p>
-			</div>
-			</div><!--/row-->
-		
-      <form class="form col-sm-4" id="loginform" method="post" action="#">
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username" class="basic" placeholder="Email or username">
-        
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" class="basic">
-        
-        
-		<div class="col-sm-12">
-			<p>or sign in with</p>
-		</div><!--</p> or sign in with-->
-			<div class="row">
-		<div class="col-sm-12">
-			<div class="col-sm-4"><img src="https://www.iconfinder.com/data/icons/picons-social/57/56-apple-512.png" class="img-responsive" style="height: 51px" alt="Responsive image"></div>
-			<div class="col-sm-4"><img src="https://www.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" class="img-responsive" style="height: 51px" alt="Responsive image"></div>
-			<div class="col-sm-4"><img src="https://www.iconfinder.com/data/icons/social-media-2210/24/Google-512.png" class="img-responsive" style="height: 51px" alt="Responsive image"></div>
-		</div><!--/col-sm-12-->
-			</div><!--/row-->
-			<input type="submit" name="submit" class="btn button btn-lg btn-block" value="CONTINUE">
-      </form><!-- @end #loginform -->
-      
-      <div id="logindetails">
-        <!-- when user is logged in we display this div -->
-        <p>You are logged in as <strong>demo</strong>! The cookie is set to expire in 1 day from the original login.</p>
-        
-        <p>Want to logout? Easy!</p>
-        
-        <p id="logoutcontainer"><a href="#" id="logoutbtn" class="btn button btn-lg btn-block">Logout Now</a></p>
-      </div><!-- @end #logindetails -->
-    </div><!-- @end #content -->
-  </div><!-- @end #w -->
-		</dov><!--/row-->
-<script type="text/javascript">
-$(function(){
-  if($.cookie('username')) {
-    $('#loginform').hide();
-    $('#logindetails').show();
-  }
-  
-  $('#loginform').submit(function(e){
-    e.preventDefault();
-    var inputuname = $('#username').val();
-    var inputpass  = $('#password').val();
-    
-    if(inputuname == "demo" && inputpass == "demo") {
-      // successful validation and create cookie
-      $.cookie('username', 'demo', { expires: 1 });
-      var currentusr = $.cookie('username');
-      window.location.reload();
-    }
-  });
-  
-  $('#logoutbtn').on('click', function(e){
-    e.preventDefault();
-    if($.removeCookie('username')) {
-      $('#logoutcontainer').html('<strong>Successfully logged out! Refreshing the page now...</strong>');
-      window.setTimeout('location.reload()', 2000); // refresh after 2 sec
-    }
-  });
-});
+        <!--style sheets-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/styles.css" />
 
-// expires after browser closes (session cookie)
-// $.cookie('username', 'demo');
-</script>
-</body>
+        <!--javascripts-->
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    </head>
+
+    <body>
+        <div id="topbar">
+            <p>Log in</p>
+        </div>
+
+        <div id="w">
+            <div class="container-fluid" id="content">
+                <div class="row">
+                    <div class="col-sm-12"><h1>Welcome back!</h1></div>
+                    <div class="row">
+                        <div class="col-sm-12"><p style="text-align: center;">Log back into your GasBuddy account.</p></div>
+                        <div class="col-sm-12">
+                            <p style="text-align: center; font-style: italic;"><small>username/password: demo/demo</small></p>
+                        </div>
+                    </div>
+                    <!--/row-->
+
+                    <form class="form col-sm-4" id="loginform" method="post" action="#">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" class="basic" placeholder="Email or username" />
+
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" class="basic" />
+
+                        <div class="col-sm-12">
+                            <p>or sign in with</p>
+                        </div>
+                        <!--</p> or sign in with-->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="col-sm-4"><img src="https://www.iconfinder.com/data/icons/picons-social/57/56-apple-512.png" class="img-responsive" style="height: 51px;" alt="Responsive image" /></div>
+                                <div class="col-sm-4"><img src="https://www.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" class="img-responsive" style="height: 51px;" alt="Responsive image" /></div>
+                                <div class="col-sm-4"><img src="https://www.iconfinder.com/data/icons/social-media-2210/24/Google-512.png" class="img-responsive" style="height: 51px;" alt="Responsive image" /></div>
+                            </div>
+                            <!--/col-sm-12-->
+                        </div>
+                        <!--/row-->
+                        <input type="submit" name="submit" class="btn button btn-lg btn-block" value="CONTINUE" />
+                    </form>
+                    <!-- @end #loginform -->
+
+                    <div id="logindetails">
+                        <!-- when user is logged in we display this div -->
+                        <p>You are logged in as <strong>demo</strong>! The cookie is set to expire in 1 day from the original login.</p>
+
+                        <p>Want to logout? Easy!</p>
+
+                        <p id="logoutcontainer"><a href="#" id="logoutbtn" class="btn button btn-lg btn-block">Logout Now</a></p>
+                    </div>
+                    <!-- @end #logindetails -->
+                </div>
+                <!-- @end #content -->
+            </div>
+            <!-- @end #w -->
+        </div>
+        <!--/row-->
+        <script type="text/javascript">
+            $(function () {
+                if ($.cookie("username")) {
+                    $("#loginform").hide();
+                    $("#logindetails").show();
+                }
+
+                $("#loginform").submit(function (e) {
+                    e.preventDefault();
+                    var inputuname = $("#username").val();
+                    var inputpass = $("#password").val();
+
+                    if (inputuname == "demo" && inputpass == "demo") {
+                        // successful validation and create cookie
+                        $.cookie("username", "demo", { expires: 1 });
+                        var currentusr = $.cookie("username");
+                        window.location.reload();
+                    }
+                });
+
+                $("#logoutbtn").on("click", function (e) {
+                    e.preventDefault();
+                    if ($.removeCookie("username")) {
+                        $("#logoutcontainer").html("<strong>Successfully logged out! Refreshing the page now...</strong>");
+                        window.setTimeout("location.reload()", 2000); // refresh after 2 sec
+                    }
+                });
+            });
+
+            // expires after browser closes (session cookie)
+            // $.cookie('username', 'demo');
+        </script>
+    </body>
 </html>

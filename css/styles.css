@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: 100%;
   vertical-align: baseline;
   outline: none;
   -webkit-font-smoothing: antialiased;
@@ -69,7 +69,7 @@ img { border: 0; max-width: 100%; }
   background: #fff;
   padding: 10px 0 10px 0;
   text-align: center;
-  height: 36px;
+  /*height: 36px;*/
   overflow: hidden;
   -webkit-transition: height 0.5s linear;
   -moz-transition: height 0.5s linear;
@@ -303,3 +303,16 @@ form input.basic {
  
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { ... 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { ... }

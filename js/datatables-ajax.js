@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#example').DataTable({
-        ajax: '../ajax/gas-stations.txt',
+        ajax: '/ajax/gas-stations.txt',
         columns: [
             {
                 data: 'name'

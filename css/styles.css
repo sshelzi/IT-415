@@ -208,6 +208,10 @@ a:hover { text-decoration: underline; }
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
+.sign-in-options {
+	width: 20%; 
+	margin: 2em auto;
+}
 
 
 /** form elements **/

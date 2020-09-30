@@ -67,7 +67,7 @@ img { border: 0; max-width: 100%; }
 
 #topbar {
   background: #fff;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 0 0;
   text-align: center;
   /*height: 36px;*/
   overflow: hidden;

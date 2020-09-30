@@ -316,7 +316,12 @@ html[xmlns] .clearfix { display: block; }
 /* Small devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) { 
 	.sign-in-options {
-	width: 30%;
+		width: 30%;
+	}
+	
+	.button {
+		margin-left: 30%; 
+		margin-top: 3%;
 	}
 }
 

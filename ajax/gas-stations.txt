@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "logo": "Mobil",
       "name": "Mobil",
       "position": "697 Main St & Maine Tpke Approach Rd South, Portland, ME",
       "salary": "2.09",
@@ -9,6 +10,7 @@
       "extn": "5421"
     },
     {
+      "logo": "Irving",
       "name": "Irving",
       "position": "Accountant",
       "salary": "2.09",
@@ -17,6 +19,7 @@
       "extn": "8422"
     },
     {
+      "logo": "Irving",
       "name": "Irving",
       "position": "Junior Technical Author",
       "salary": "2.09",
@@ -25,6 +28,7 @@
       "extn": "1562"
     },
     {
+      "logo": "Irving",
       "name": "Irving",
       "position": "Senior Javascript Developer",
       "salary": "2.11",
@@ -33,6 +37,7 @@
       "extn": "6224"
     },
     {
+      "logo": "CITGO",
       "name": "CITGO",
       "position": "Accountant",
       "salary": "2.11",
@@ -41,6 +46,7 @@
       "extn": "5407"
     },
     {
+      "logo": "Sunoco",
       "name": "Sunoco",
       "position": "45 Gorham Rd near Maine Mall Rd, South Portland, ME",
       "salary": "2.13",
@@ -49,6 +55,7 @@
       "extn": "4804"
     },
     {
+      "logo": "Shell",
       "name": "Shell",
       "position": "334 Cottage Rd",
       "salary": "2.17",
@@ -57,6 +64,7 @@
       "extn": "9608"
     },
     {
+      "logo": "Cumberland Farms",
       "name": "Cumberland Farms",
       "position": "427 Cottage Rd, South Portland, ME",
       "salary": "2.17",
@@ -65,6 +73,7 @@
       "extn": "6200"
     },
     {
+      "logo": "CITGO",
       "name": "CITGO",
       "position": "446 Western Ave South Portland, ME",
       "salary": "2.19",
@@ -73,6 +82,7 @@
       "extn": "2360"
     },
     {
+      "logo": "Irving",
       "name": "Irving",
       "position": "327 Main St South Portland, ME ",
       "salary": "2.29",
@@ -81,6 +91,7 @@
       "extn": "1667"
     },
     {
+      "logo": "Sams Club",
       "name": "Sam's Club",
       "position": "440 Payne Rd Scarborough, ME",
       "salary": "2.01",
@@ -89,6 +100,7 @@
       "extn": "3814"
     },
     {
+      "logo": "BJs",
       "name": "BJ's",
       "position": "513-515 Warren Ave Portland, ME",
       "salary": "2.01",
@@ -97,6 +109,7 @@
       "extn": "9497"
     },
     {
+      "logo": "Sunoco",
       "name": "Sunoco",
       "position": "1185 Forest Ave Portland, ME",
       "salary": "2.03",
@@ -105,6 +118,7 @@
       "extn": "6741"
     },
     {
+      "logo": "Irving",
       "name": "Irving",
       "position": "270 Riverside St Portland, ME",
       "salary": "2.04",
@@ -113,6 +127,7 @@
       "extn": "3597"
     },
     {
+      "logo": "Getty",
       "name": "Getty",
       "position": "460 Warren Av Portland, ME",
       "salary": "2.07",
@@ -121,6 +136,7 @@
       "extn": "1965"
     },
     {
+      "logo": "Irving",,
       "name": "Irving",
       "position": "393 Commercial St Portland, ME
       "salary": "2.09
@@ -129,7 +145,8 @@
       "extn": "1581"
     },
     {
-      "name": "Cumberland Farms
+      "logo": "Cumberland Farms",
+      "name": "Cumberland Farms"
       "position": "441 Payne Rd Scarborough, ME
       "salary": "2.15
       "start_date": "2010/06/09",
@@ -137,7 +154,8 @@
       "extn": "3059"
     },
     {
-      "name": "Mobile
+      "logo": "Mobil",
+      "name": "Mobil"
       "position": "518 Forest Av Portland, ME
       "salary": "2.15
       "start_date": "2009/04/10",
@@ -145,7 +163,8 @@
       "extn": "1721"
     },
     {
-      "name": "Mobile
+      "logo": "Mobil",
+      "name": "Mobil"
       "position": "1196 Congress St Portland, ME
       "salary": "2.15
       "start_date": "2012/10/13",
@@ -153,308 +172,13 @@
       "extn": "2558"
     },
     {
-      "name": "Cumberland Farms
+      "logo": "Cumberland Farms",
+      "name": "Cumberland Farms"
       "position": "Personnel Lead",
       "salary": "217500",
       "start_date": "2012/09/26",
       "office": "Edinburgh",
       "extn": "2290"
     },
-    {
-      "name": "Jenette Caldwell",
-      "position": "Development Lead",
-      "salary": "345000",
-      "start_date": "2011/09/03",
-      "office": "New York",
-      "extn": "1937"
-    },
-    {
-      "name": "Yuri Berry",
-      "position": "Chief Marketing Officer (CMO)",
-      "salary": "675000",
-      "start_date": "2009/06/25",
-      "office": "New York",
-      "extn": "6154"
-    },
-    {
-      "name": "Caesar Vance",
-      "position": "Pre-Sales Support",
-      "salary": "106450",
-      "start_date": "2011/12/12",
-      "office": "New York",
-      "extn": "8330"
-    },
-    {
-      "name": "Doris Wilder",
-      "position": "Sales Assistant",
-      "salary": "85600",
-      "start_date": "2010/09/20",
-      "office": "Sydney",
-      "extn": "3023"
-    },
-    {
-      "name": "Angelica Ramos",
-      "position": "Chief Executive Officer (CEO)",
-      "salary": "1200000",
-      "start_date": "2009/10/09",
-      "office": "London",
-      "extn": "5797"
-    },
-    {
-      "name": "Gavin Joyce",
-      "position": "Developer",
-      "salary": "92575",
-      "start_date": "2010/12/22",
-      "office": "Edinburgh",
-      "extn": "8822"
-    },
-    {
-      "name": "Jennifer Chang",
-      "position": "Regional Director",
-      "salary": "357650",
-      "start_date": "2010/11/14",
-      "office": "Argentina",
-      "extn": "9239"
-    },
-    {
-      "name": "Brenden Wagner",
-      "position": "Software Engineer",
-      "salary": "206850",
-      "start_date": "2011/06/07",
-      "office": "San Francisco",
-      "extn": "1314"
-    },
-    {
-      "name": "Fiona Green",
-      "position": "Chief Operating Officer (COO)",
-      "salary": "850000",
-      "start_date": "2010/03/11",
-      "office": "San Francisco",
-      "extn": "2947"
-    },
-    {
-      "name": "Shou Itou",
-      "position": "Regional Marketing",
-      "salary": "163000",
-      "start_date": "2011/08/14",
-      "office": "Tokyo",
-      "extn": "8899"
-    },
-    {
-      "name": "Michelle House",
-      "position": "Integration Specialist",
-      "salary": "95400",
-      "start_date": "2011/06/02",
-      "office": "Sydney",
-      "extn": "2769"
-    },
-    {
-      "name": "Suki Burks",
-      "position": "Developer",
-      "salary": "114500",
-      "start_date": "2009/10/22",
-      "office": "London",
-      "extn": "6832"
-    },
-    {
-      "name": "Prescott Bartlett",
-      "position": "Technical Author",
-      "salary": "145000",
-      "start_date": "2011/05/07",
-      "office": "London",
-      "extn": "3606"
-    },
-    {
-      "name": "Gavin Cortez",
-      "position": "Team Leader",
-      "salary": "235500",
-      "start_date": "2008/10/26",
-      "office": "San Francisco",
-      "extn": "2860"
-    },
-    {
-      "name": "Martena Mccray",
-      "position": "Post-Sales support",
-      "salary": "324050",
-      "start_date": "2011/03/09",
-      "office": "Edinburgh",
-      "extn": "8240"
-    },
-    {
-      "name": "Unity Butler",
-      "position": "Marketing Designer",
-      "salary": "85675",
-      "start_date": "2009/12/09",
-      "office": "San Francisco",
-      "extn": "5384"
-    },
-    {
-      "name": "Howard Hatfield",
-      "position": "Office Manager",
-      "salary": "164500",
-      "start_date": "2008/12/16",
-      "office": "San Francisco",
-      "extn": "7031"
-    },
-    {
-      "name": "Hope Fuentes",
-      "position": "Secretary",
-      "salary": "109850",
-      "start_date": "2010/02/12",
-      "office": "San Francisco",
-      "extn": "6318"
-    },
-    {
-      "name": "Vivian Harrell",
-      "position": "Financial Controller",
-      "salary": "452500",
-      "start_date": "2009/02/14",
-      "office": "San Francisco",
-      "extn": "9422"
-    },
-    {
-      "name": "Timothy Mooney",
-      "position": "Office Manager",
-      "salary": "136200",
-      "start_date": "2008/12/11",
-      "office": "London",
-      "extn": "7580"
-    },
-    {
-      "name": "Jackson Bradshaw",
-      "position": "Director",
-      "salary": "645750",
-      "start_date": "2008/09/26",
-      "office": "New York",
-      "extn": "1042"
-    },
-    {
-      "name": "Olivia Liang",
-      "position": "Support Engineer",
-      "salary": "234500",
-      "start_date": "2011/02/03",
-      "office": "Argentina",
-      "extn": "2120"
-    },
-    {
-      "name": "Bruno Nash",
-      "position": "Software Engineer",
-      "salary": "163500",
-      "start_date": "2011/05/03",
-      "office": "London",
-      "extn": "6222"
-    },
-    {
-      "name": "Sakura Yamamoto",
-      "position": "Support Engineer",
-      "salary": "139575",
-      "start_date": "2009/08/19",
-      "office": "Tokyo",
-      "extn": "9383"
-    },
-    {
-      "name": "Thor Walton",
-      "position": "Developer",
-      "salary": "98540",
-      "start_date": "2013/08/11",
-      "office": "New York",
-      "extn": "8327"
-    },
-    {
-      "name": "Finn Camacho",
-      "position": "Support Engineer",
-      "salary": "87500",
-      "start_date": "2009/07/07",
-      "office": "San Francisco",
-      "extn": "2927"
-    },
-    {
-      "name": "Serge Baldwin",
-      "position": "Data Coordinator",
-      "salary": "138575",
-      "start_date": "2012/04/09",
-      "office": "Argentina",
-      "extn": "8352"
-    },
-    {
-      "name": "Zenaida Frank",
-      "position": "Software Engineer",
-      "salary": "125250",
-      "start_date": "2010/01/04",
-      "office": "New York",
-      "extn": "7439"
-    },
-    {
-      "name": "Zorita Serrano",
-      "position": "Software Engineer",
-      "salary": "115000",
-      "start_date": "2012/06/01",
-      "office": "San Francisco",
-      "extn": "4389"
-    },
-    {
-      "name": "Jennifer Acosta",
-      "position": "Junior Javascript Developer",
-      "salary": "75650",
-      "start_date": "2013/02/01",
-      "office": "Edinburgh",
-      "extn": "3431"
-    },
-    {
-      "name": "Cara Stevens",
-      "position": "Sales Assistant",
-      "salary": "145600",
-      "start_date": "2011/12/06",
-      "office": "New York",
-      "extn": "3990"
-    },
-    {
-      "name": "Hermione Butler",
-      "position": "Regional Director",
-      "salary": "356250",
-      "start_date": "2011/03/21",
-      "office": "London",
-      "extn": "1016"
-    },
-    {
-      "name": "Lael Greer",
-      "position": "Systems Administrator",
-      "salary": "103500",
-      "start_date": "2009/02/27",
-      "office": "London",
-      "extn": "6733"
-    },
-    {
-      "name": "Jonas Alexander",
-      "position": "Developer",
-      "salary": "86500",
-      "start_date": "2010/07/14",
-      "office": "San Francisco",
-      "extn": "8196"
-    },
-    {
-      "name": "Shad Decker",
-      "position": "Regional Director",
-      "salary": "183000",
-      "start_date": "2008/11/13",
-      "office": "Edinburgh",
-      "extn": "6373"
-    },
-    {
-      "name": "Michael Bruce",
-      "position": "Javascript Developer",
-      "salary": "183000",
-      "start_date": "2011/06/27",
-      "office": "Argentina",
-      "extn": "5384"
-    },
-    {
-      "name": "Donna Snider",
-      "position": "Customer Support",
-      "salary": "112000",
-      "start_date": "2011/01/25",
-      "office": "New York",
-      "extn": "4226"
-    }
   ]
 }

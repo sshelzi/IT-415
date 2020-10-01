@@ -4,7 +4,7 @@ $(document).ready(function() {
         columns: [
             {
 				data: 'name'
-			}
+			},
 			{
                 className: 'logo'
                 data: 'logo'

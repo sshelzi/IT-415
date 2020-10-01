@@ -65,6 +65,10 @@ strong { font-weight: bold; }
 table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; /*max-width: 100%;*/ }
 
+.demo {
+	font-size: 1em;
+}
+
 #topbar {
   background: #fff;
   padding: 10px 0 0 0;

@@ -381,7 +381,12 @@ html[xmlns] .clearfix { display: block; }
 	
 	
 }
-@media only screen and (max-width: 1400px) { 
+@media only screen 
+	and (max-width: 1400px) 
+	and (max-device-width: 1600px) 
+	and (-webkit-min-device-pixel-ratio: 2)
+  	and (min-resolution: 192dpi) 
+{ 
 	.button {
 		margin-left: 30%;
     		margin-top: 3%;

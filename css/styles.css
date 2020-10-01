@@ -381,3 +381,11 @@ html[xmlns] .clearfix { display: block; }
 	
 	
 }
+@media only screen and (max-width: 1400px) { 
+	.button {
+		margin-left: 30%;
+    		margin-top: 3%;
+    		width: 40%;
+	}
+
+}

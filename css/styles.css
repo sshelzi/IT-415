@@ -354,6 +354,12 @@ html[xmlns] .clearfix { display: block; }
     		margin-top: 3%;
     		width: 40%;
 	}
+	
+	.demo {
+	font-size: 1.34em;
+	text-align: center; 
+	font-style: italic;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */

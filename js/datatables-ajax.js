@@ -3,8 +3,11 @@ $(document).ready(function() {
         ajax: 'ajax/gas-stations.txt',
         columns: [
             {
+				data: 'name'
+			}
+			{
                 className: 'logo'
-                data: 'name'
+                data: 'logo'
                 render: function(data, type) {
                     if (type === 'display') {
                         var logo = '';

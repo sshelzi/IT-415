@@ -224,7 +224,7 @@ a:hover { text-decoration: underline; }
 }
 
 .img-logo {
-	width: 2em;
+	width: 3.5em;
 	image-rendering: -webkit-optimize-contrast;
 	-moz-border-radius: 30px;
     -webkit-border-radius: 30px;

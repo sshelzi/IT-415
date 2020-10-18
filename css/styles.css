@@ -203,6 +203,16 @@ a:hover { text-decoration: underline; }
   margin: 0 auto;
   /*padding-top: 30px;*/
 }
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
 .show {
   //display: block;
 	display: table-row;

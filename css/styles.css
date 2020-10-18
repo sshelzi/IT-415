@@ -213,6 +213,9 @@ a:hover { text-decoration: underline; }
   //display: block;
 	display: table-row;
 }
+.gas-station {
+	font-size: 2em;
+}
 
 #content {
   display: block;

@@ -24,6 +24,45 @@
     </head>
 
     <body>
+		
+		
+		
+		<div id="myBtnContainer">
+  <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
+  <button class="btn" onclick="filterSelection('regular')"> Regular</button>
+  <button class="btn" onclick="filterSelection('diesel')"> Diesel</button>
+  <button class="btn" onclick="filterSelection('ethanol-free')"> Ethanol-Free</button>
+  <button class="btn" onclick="filterSelection('premium')"> Premium</button>
+</div>
+  <button class="btn" onclick="filterSelection('midgrade')"> Midgrade</button>
+</div>
+  <button class="btn" onclick="filterSelection('UNL88')"> UNL88</button>
+</div>
+  <button class="btn" onclick="filterSelection('E85')"> E85</button>
+</div>
+
+<div class="container">
+  <div class="filterDiv regular premium midgrade diesel">BMW</div>
+  <div class="filterDiv regular premium UNL88">Orange</div>
+  <div class="filterDiv regular premium">Volvo</div>
+  <div class="filterDiv regular premium">Red</div>
+  <div class="filterDiv regular premium diesel UNL88">Mustang</div>
+  <div class="filterDiv regular premium ethanol-free">Blue</div>
+  <div class="filterDiv regular premium midgrade">Cat</div>
+  <div class="filterDiv regular premium midgrade E85">Dog</div>
+  <div class="filterDiv regular premium midgrade ">Melon</div>
+  <div class="filterDiv regular premium midgrade diesel">Kiwi</div>
+  <div class="filterDiv regular premium midgrade ">Banana</div>
+  <div class="filterDiv regular premium midgrade diesel ethanol-free E85">Lemon</div>
+  <div class="filterDiv regular premium midgrade E85">Cow</div>
+</div>
+
+
+		
+		
+		
+		
+		
         <table class="table" width="100%" role="grid" aria-describedby="example_info" style="width: 100%;">
             <thead>
                 <tr role="row">
@@ -36,7 +75,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr role="row" class="odd">
+                <tr role="row" class="filterDiv regular premium midgrade diesel">
                     <td class="sorting_1">Mobil</td>
                     <td>Accountant</td>
                     <td>697 Main St & Maine Tpke Approach Rd South, Portland, ME</td>
@@ -44,7 +83,7 @@
                     <td>2008/11/28</td>
                     <td>2.09</td>
                 </tr>
-                <tr role="row" class="even">
+                <tr role="row" class="filterDiv regular premium UNL88">
                     <td class="sorting_1">Irving</td>
                     <td>Chief Executive Officer (CEO)</td>
                     <td>474 Westbrook St South Portland, ME </td>
@@ -52,7 +91,7 @@
                     <td>2009/10/09</td>
                     <td>$2.09</td>
                 </tr>
-                <tr role="row" class="odd">
+                <tr role="row" class="filterDiv regular premium midgrade">
                     <td class="sorting_1">Irving</td>
                     <td>Junior Technical Author</td>
                     <td> </td>
@@ -60,7 +99,7 @@
                     <td>2009/01/12</td>
                     <td>$2.09</td>
                 </tr>
-                <tr role="row" class="even">
+                <tr role="row" class="filterDiv regular premium midgrade ">
                     <td class="sorting_1">CITGO</td>
                     <td>Software Engineer</td>
                     <td>90 Western Ave South Portland, ME</td>
@@ -68,7 +107,7 @@
                     <td>2012/10/13</td>
                     <td>$2.11</td>
                 </tr>
-                <tr role="row" class="odd">
+                <tr role="row" class="filterDiv regular premium midgrade diesel UNL88">
                     <td class="sorting_1">Sunoco</td>
                     <td>Software Engineer</td>
                     <td>425 Gorham Rd, South Portland, ME</td>
@@ -76,15 +115,15 @@
                     <td>2011/06/07</td>
                     <td>$2.13</td>
                 </tr>
-                <tr role="row" class="even">
-                    <td class="sorting_1">Shelltd>
+                <tr role="row" class="filterDiv regular premium midgrade">
+                    <td class="sorting_1">Shell<td>
                     <td>Integration Specialist</td>
                     <td>334 Cottage Rd South Portland, ME</td>
                     <td>4804</td>
                     <td>2012/12/02</td>
                     <td>$2.17</td>
                 </tr>
-                <tr role="row" class="odd">
+                <tr role="row" class="filterDiv regular premium ethanol-free">
                     <td class="sorting_1">Cumberland Farms</td>
                     <td>Pre-Sales Support</td>
                     <td>427 Cottage Rd, South Portland, ME</td>
@@ -92,7 +131,7 @@
                     <td>2011/12/12</td>
                     <td>$106,450</td>
                 </tr>
-                <tr role="row" class="even">
+                <tr role="row" class="filterDiv regular premium midgrade">
                     <td class="sorting_1">Irving</td>
                     <td>Senior Javascript Developer</td>
                     <td>690 Main St South Portland, ME</td>
@@ -100,7 +139,7 @@
                     <td>2012/03/29</td>
                     <td>$2.17</td>
                 </tr>
-                <tr role="row" class="odd">
+                <tr role="row" class="filterDiv regular premium midgrade E85">
                     <td class="sorting_1">CITGO</td>
                     <td>Regional Director</td>
                     <td>446 Western Ave South Portland, ME</td>
@@ -108,13 +147,21 @@
                     <td>2008/10/16</td>
                     <td>$2.19</td>
                 </tr>
-                <tr role="row" class="even">
+                <tr role="row" class="filterDiv regular premium midgrade diesel">
                     <td class="sorting_1">Irving</td>
                     <td>Javascript Developer</td>
                     <td>327 Main St South Portland, ME</td>
                     <td>2360</td>
                     <td>2009/09/15</td>
                     <td>$2.29</td>
+                </tr>
+				<tr role="row" class="filterDiv regular premium midgrade diesel ethanol-free E85">
+                    <td class="sorting_1">Irving</td>
+                    <td>Javascript Developer</td>
+                    <td>558 Main St South Portland, ME</td>
+                    <td>2360</td>
+                    <td>2009/09/15</td>
+                    <td>$2.30</td>
                 </tr>
             </tbody>
         </table>

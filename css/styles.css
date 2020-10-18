@@ -203,6 +203,9 @@ a:hover { text-decoration: underline; }
   margin: 0 auto;
   /*padding-top: 30px;*/
 }
+.td-logo {
+	width: 1em;
+}
 .filterDiv {
   /*float: left;*/
   margin: 2px;
@@ -215,6 +218,17 @@ a:hover { text-decoration: underline; }
 }
 .gas-station {
 	font-size: 2em;
+}
+
+.img-logo {
+	width: 2em;
+	image-rendering: -webkit-optimize-contrast;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    padding: .4em;
+    border-radius: 30px;
+    border: 1px solid #a1a29e;
 }
 
 #content {

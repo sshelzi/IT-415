@@ -24,11 +24,29 @@
 
     <body>
 		
+		<div class="btn-group" role="group" aria-label="Fuel Filters">
+  <button type="button" class="btn btn-default">Prive </button>
+  <div class="btn-group" role="group">
+					<button type="button" class="btn btn-default">2</button>
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"  onclick="filterSelection('regular')" aria-haspopup="true" aria-expanded="false">
+      Regular
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+			<li onclick="filterSelection('midgrade')"> Midgrade</li>
+			<li onclick="filterSelection('premium')"> Premium<</li>
+      <li onclick="filterSelection('diesel')"> Diesel</li>
+			<li onclick="filterSelection('UNL88')"> UNL88</li>
+			<li onclick="filterSelection('E85')"> E85</li>
+			<li onclick="filterSelection('ethanol-free')"> Ethanol-Free</li>
+    </ul>
+  </div>
+			<button type="button" class="btn btn-default">Credit Only <span class="caret"></span></button>
+</div>
 		
-		
-<div id="myBtnContainer">
+<div class="btn-group" id="myBtnContainer" role="group">
   <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
-  <button class="btn" onclick="filterSelection('regular')"> Regular</button>
+  <button type="button" class="btn  btn-default dropdown-toggle" onclick="filterSelection('regular')"> Regular</button>
   <button class="btn" onclick="filterSelection('diesel')"> Diesel</button>
   <button class="btn" onclick="filterSelection('ethanol-free')"> Ethanol-Free</button>
   <button class="btn" onclick="filterSelection('premium')"> Premium</button>
@@ -69,23 +87,21 @@
                     <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 375px;">Start date</th>
                     <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 312px;">Salary</th>-->
 			<th>Fuel</th>
+									
 			<th>By Price</th>
                 </tr>
             </thead>
             <tbody>
                 <tr role="row" class="filterDiv regular premium midgrade diesel">
-                    <td class="sorting_1">Mobil</td>
-                    <td>697 Main St & Maine Tpke Approach Rd South, Portland, ME</td>
+									<td class="sorting_1">Mobil </br>697 Main St & Maine Tpke Approach Rd South, Portland, ME</td>
                     <td>2.09</td>
                 </tr>
                 <tr role="row" class="filterDiv regular premium UNL88">
-                    <td class="sorting_1">Irving</td>
-                    <td>474 Westbrook St South Portland, ME </td>
+                    <td class="sorting_1">Irving </br>474 Westbrook St South Portland, ME </td>
                     <td>$2.09</td>
                 </tr>
                 <tr role="row" class="filterDiv regular premium midgrade">
-                    <td class="sorting_1">Irving</td>
-                    <td> </td>
+                    <td class="sorting_1">Irving </br> 190 Main St Portland, ME 04101 </td>
                     <td>$2.09</td>
                 </tr>
                 <tr role="row" class="filterDiv regular premium midgrade ">

@@ -206,6 +206,9 @@ a:hover { text-decoration: underline; }
 .td-logo {
 	width: 1em;
 }
+.td-cost {
+	font-size: 2.5em;
+}
 .filterDiv {
   /*float: left;*/
   margin: 2px;
@@ -230,7 +233,9 @@ a:hover { text-decoration: underline; }
     border-radius: 30px;
     border: 1px solid #a1a29e;
 }
-
+.sorting_1 {
+	width: 25%;
+}
 #content {
   display: block;
   width: 100%;

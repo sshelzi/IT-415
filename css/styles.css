@@ -204,13 +204,9 @@ a:hover { text-decoration: underline; }
   /*padding-top: 30px;*/
 }
 .filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
+  /*float: left;*/
   margin: 2px;
+	line-height: 1.75em;
   display: none;
 }
 .show {

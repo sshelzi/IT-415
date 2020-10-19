@@ -22,6 +22,14 @@
     <body>
         <div id="topbar">
             <p style="margin-bottom: 0">Log in</p>
+		<div  class="alert alert-success" role="alert" id="logindetails">
+                        <!-- when user is logged in we display this div -->
+                        <p>You are logged in as <strong>demo</strong>! The cookie is set to expire in 1 day from the original login.</p>
+
+                        <p>Want to logout? Easy!</p>
+
+                        <p id="logoutcontainer"><a href="#" id="logoutbtn" class="btn button btn-lg btn-block">Logout Now</a></p>
+                    </div><!-- @end #logindetails -->
         </div><!--/topbar-->
 
         <div id="w">
@@ -54,14 +62,7 @@
                         <input type="submit" name="submit" class="btn button" value="CONTINUE" />
                     </form><!--/#loginform -->
 
-                    <div id="logindetails">
-                        <!-- when user is logged in we display this div -->
-                        <p>You are logged in as <strong>demo</strong>! The cookie is set to expire in 1 day from the original login.</p>
-
-                        <p>Want to logout? Easy!</p>
-
-                        <p id="logoutcontainer"><a href="#" id="logoutbtn" class="btn button btn-lg btn-block">Logout Now</a></p>
-                    </div><!-- @end #logindetails -->
+                    
 					<!--</div><!--/row-->
                 </div><!--/#content -->
             </div><!-- /#w -->

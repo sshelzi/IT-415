@@ -81,17 +81,6 @@ img { border: 0; /*max-width: 100%;*/ }
   -moz-transition: height 0.5s linear;
   transition: height 0.5s linear;
 }
-#topbar a {
-  color: #4f4a41;
-  font-size:1.3em;
-  line-height: 1.25em;
-  text-decoration: none;
-  opacity: 0.5;
-  font-weight: bold;
-}
-#topbar a:hover {
-  opacity: 1;
-}
 
 #stickynav {
   display: block;

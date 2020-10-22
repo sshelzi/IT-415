@@ -25,12 +25,20 @@
 
     <body>
 		
-		<div  id="myBtnContainer class="btn-group" role="group" aria-label="Fuel Filters">
+		<div class="btn-group" role="group" aria-label="Fuel Filters">
   <button type="button" class="btn btn-default">Price </button>
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"  onclick="filterSelection('regular')" aria-haspopup="true" aria-expanded="false">
       Regular
       <span class="caret"></span>
     </button>
+		<ul class="dropdown-menu">
+			<li> Midgrade</li>
+			<li> Premium<</li>
+      		<li> Diesel</li>
+			<li> UNL88</li>
+			<li> E85</li>
+			<li> Ethanol-Free</li>
+    </ul>
     <ul class="dropdown-menu">
 			<li onclick="filterSelection('midgrade')"> Midgrade</li>
 			<li onclick="filterSelection('premium')"> Premium<</li>
@@ -173,7 +181,7 @@
 						</br>
 					<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
                     </br>427 Cottage Rd, South Portland, ME</td>
-                    <td><span style="font-size:.6em; vertical-align: top;">$</span>2.17
+                    <td class="td-cost"><span style="font-size:.6em; vertical-align: top;">$</span>2.17
 					</br>
 						<span style="font-size:.45em; line-height: 0px;">remichal
 							</br>

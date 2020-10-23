@@ -14,7 +14,7 @@
  
 //$(document).ready(function() {
 //fuel type filter
-filterSelection("all")
+filterSelection("regular")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");

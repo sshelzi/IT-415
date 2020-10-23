@@ -1,6 +1,4 @@
 //fuel type filter
-
-$(document).ready(function () {
 	filterSelection("regular")
 
 	function filterSelection(c) {
@@ -47,5 +45,3 @@ $(document).ready(function () {
 		});
 	}
 	$('.dropdown-toggle').dropdown()
-
-});

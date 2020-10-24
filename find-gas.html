@@ -23,59 +23,11 @@
     </head>
 
     <body>
-	    <!-- Single button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-		<!-- Single button -->
-		<div class="dropdown">
-  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown trigger
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dLabel">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
 		<div class="btn-group" role="group" aria-label="Fuel Filters">
   <button type="button" class="btn btn-default">Price </button>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"  onclick="filterSelection('regular')" aria-haspopup="true" aria-expanded="false">
-      Regular
-      <span class="caret"></span>
-    </button>
-		<ul class="dropdown-menu">
-			<li> Midgrade</li>
-			<li> Premium<</li>
-      		<li> Diesel</li>
-			<li> UNL88</li>
-			<li> E85</li>
-			<li> Ethanol-Free</li>
-    </ul>
-    <ul class="dropdown-menu">
-			<li onclick="filterSelection('midgrade')"> Midgrade</li>
-			<li onclick="filterSelection('premium')"> Premium<</li>
-      		<li onclick="filterSelection('diesel')"> Diesel</li>
-			<li onclick="filterSelection('UNL88')"> UNL88</li>
-			<li onclick="filterSelection('E85')"> E85</li>
-			<li onclick="filterSelection('ethanol-free')"> Ethanol-Free</li>
-    </ul>
 			<button type="button" class="btn btn-default">Credit Only <span class="caret"></span></button>
 </div>
 		
-<!--<div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button type="button" class="btn" onclick="filterSelection('regular')"> Regular</button>
   <button class="btn" onclick="filterSelection('diesel')"> Diesel</button>
@@ -83,8 +35,7 @@
   <button class="btn" onclick="filterSelection('premium')"> Premium</button>
   <button class="btn" onclick="filterSelection('midgrade')"> Midgrade</button>
   <button class="btn" onclick="filterSelection('UNL88')"> UNL88</button>
-  <button class="btn" onclick="filterSelection('E85')"> E85</button>
-</div>-->	
+  <button class="btn" onclick="filterSelection('E85')"> E85</button>	
 	<div class="">Please Select a Fuel Type.</div>
         <table class="table" width="100%" role="grid" aria-describedby="example_info" style="width: 100%;">
             <thead>
